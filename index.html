@@ -22,11 +22,11 @@
     <main style="background-color: rgb(0, 255, 85);" class="flex-wrap-reverse row">
 
       <!--contenido principal de la pagina-->
-      <section class="bg-black">
+      <section class="col-xl-10 col-lg-12">
 
         <!--imagen o video principal-->
         
-          <div id="carouselExampleCaptions" class="carousel slide carousel-fade bg-danger" data-bs-ride="carousel">
+          <div id="carouselExampleCaptions" class="carousel slide carousel-fade bg-light overflow-hidden" data-bs-ride="carousel">
             <div class="carousel-inner">
 
               <!--Slide 1-->
@@ -34,7 +34,7 @@
                 <picture>
                   <source media="(max-width: 576px)" srcset="/imagenes/Casa_dragon3_Low.jpg">
                   <source media="(max-width: 1200px)" srcset="/imagenes/Casa_dragon3_Medium.jpg">
-                  <img src="/imagenes/Casa_dragon3_HQ.jpg" class="w-100" alt="imagen casa de dragon 1">
+                  <img src="/imagenes/Casa_dragon3_HQ.jpg" class="d-block w-100" alt="imagen casa de dragon 1">
                 </picture>
 
                 <div class="carousel-caption text-danger p-0">
@@ -47,7 +47,7 @@
                 <picture>
                   <source media="(max-width: 576px)" srcset="/imagenes/Casa_dragon2_Low.jpg">
                   <source media="(max-width: 1200px)" srcset="/imagenes/Casa_dragon2_Medium.jpg">
-                  <img src="/imagenes/Casa_dragon2_HQ.jpg" class="w-100" alt="imagen casa de dragon 1">
+                  <img src="/imagenes/Casa_dragon2_HQ.jpg" class="d-block w-100" alt="imagen casa de dragon 1">
                 </picture>
                 <div class="carousel-caption text-danger p-0">
                   <h5>fecha interesante</h5>
@@ -59,7 +59,7 @@
                 <picture>
                   <source media="(max-width: 576px)" srcset="/imagenes/Casa_dragon1_Low.png">
                   <source media="(max-width: 1200px)" srcset="/imagenes/Casa_dragon1_Medium.png">
-                  <img src="/imagenes/Casa_dragon1_HD.png" class="w-100" alt="imagen casa de dragon 1">
+                  <img src="/imagenes/Casa_dragon1_HD.png" class="d-block w-100" alt="imagen casa de dragon 1">
                 </picture>
                 <div class="carousel-caption text-danger p-0">
                   <h5>fecha interesante</h5>
@@ -187,10 +187,10 @@
       </section>
 
       <!--Aside con ofertas de suscripcion-->
-      <aside class="bg-info" >
-        <div class="">
-          <div class=" text-center">
-            <p class="">
+      <aside class="bg-danger col-xl-2 col-lg-12">
+        <div>
+          <div class="text-center" >
+            <p>
               <button class="btn btnColores mt-2" type="button" data-bs-toggle="collapse"
                 data-bs-target="#collapsePromocion" aria-expanded="false" aria-controls="collapsePromocion">
                 ¡Promociones exclusivas solo para vos!
@@ -198,14 +198,15 @@
             </p>
             <div class="d-flex justify-content-center">
               <div class="collapse collapse-horizontal" id="collapsePromocion">
-                <div class="card card-body" style="width: 60vw;">
-                  <p>no pierdas esta promocion increibles que se te engañaran por el resto de tu vida
+                <div class="card card-body collapseAltura" style="width: 100%; ">
+                  <p>Contratando ahora llevate el supuesto plan familia en el que solo podes ver en 2 pantallas en total entre todos los perfiles por u$d 200 al mes</p>
+                  <p class="d-xl-flex d-none">no pierdas esta promocion increible que te engañara por el resto de tu vida
                     (como netflix)</p>
                 </div>
 
-                <div class="">
+                <div>
                   <a href="">
-                    <button type="button" class="btn btnColores mt-3 mb-3">endeudarse...digo
+                    <button type="button" class="btn btnColores mt-3 mb-2">endeudarse...digo
                       suscribirse</button>
                   </a>
                 </div>
