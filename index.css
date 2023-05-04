@@ -1,4 +1,19 @@
+aside{
+    background-image: url(/imagenes/logos/logo_medio_640.png);
+    background-repeat: repeat-x;
+    background-position: center;
+    
+}
 
+.btnColores {
+    color: white;
+    background-color: #57319b ;
+}
+
+.btnColores:hover{
+    color: white;
+    background-color: #422673;
+}
 
 .portada, .portada1 {
     width: 15%;
@@ -16,10 +31,24 @@
     .espaciandoPrimera{
         margin-left: 9vw;
     }
+
+    aside{
+        background-image: url(/imagenes/logos/logo_medio_640.png);
+        background-repeat: repeat-x;
+        background-position: left;
+        background-size: 50%;
+    }
 }
 
 
 @media screen and (max-width:576px){
+
+    aside{
+        background-image: url(/imagenes/logos/logo_medio_640.png);
+        background-repeat: repeat-x;
+        background-position: center;
+        background-size: cover;
+    }
     
     .portada1 {
         display: none;
