@@ -1,25 +1,36 @@
+
+
 .portada, .portada1 {
     width: 15%;
     margin-left: 1vw;
 }
 
 .espaciandoPrimera{
-    margin-left: 10vw;
+    margin-left: 9.5vw;
 }
 
 
 
 
-
+@media screen and (max-width:1200px){
+    .espaciandoPrimera{
+        margin-left: 9vw;
+    }
+}
 
 
 @media screen and (max-width:576px){
+    
     .portada1 {
         display: none;
     }
 
     .portada{
-        width: 40%;
+        width: 30%;
         margin-left: 5vw;
+    }
+
+    .espaciandoPrimera{
+        margin-left: 15vw;
     }
 }
