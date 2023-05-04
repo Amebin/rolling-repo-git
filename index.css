@@ -43,19 +43,12 @@ aside{
         background-repeat: repeat-x;
         background-position: center;
         background-size: cover;
-       
-    }
-
-    aside div div {
-        margin-bottom: -0.8%;
     }
 }
 
 
 @media screen and (max-width:576px){
-    aside div div {
-        margin-bottom: -2%;
-    }
+
 
     .collapseAltura {
         height: 19vh;
