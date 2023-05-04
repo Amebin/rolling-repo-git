@@ -25,19 +25,18 @@
       <section class="bg-black">
 
         <!--imagen o video principal-->
-        <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div id="carouselExampleCaptions" class="carousel slide carousel-fade bg-danger" data-bs-ride="carousel">
           <div class="carousel-inner">
 
             <div class="carousel-item active" data-bs-interval="3500">
               <picture>
                 <source media="(max-width: 576px)" srcset="/imagenes/Casa_dragon3_Low.jpg">
                 <source media="(max-width: 1200px)" srcset="/imagenes/Casa_dragon3_Medium.jpg">
-                <img src="/imagenes/Casa_dragon3_HQ.jpg" class="d-block w-100" alt="imagen casa de dragon 1">
+                <img src="/imagenes/Casa_dragon3_HQ.jpg" class="d-block" alt="imagen casa de dragon 1">
               </picture>
               
               <div class="carousel-caption text-danger p-0">
                 <h5>fecha interesante</h5>
-                <p>algun evento importante de pelicula o serie que se vaya a subir/estrenar</p>
               </div>
             </div>
 
@@ -45,11 +44,10 @@
               <picture>
                 <source media="(max-width: 576px)" srcset="/imagenes/Casa_dragon2_Low.jpg">
                 <source media="(max-width: 1200px)" srcset="/imagenes/Casa_dragon2_Medium.jpg">
-                <img src="/imagenes/Casa_dragon2_HQ.jpg" class="d-block w-100" alt="imagen casa de dragon 1">
+                <img src="/imagenes/Casa_dragon2_HQ.jpg" class="d-block" alt="imagen casa de dragon 1">
               </picture>
               <div class="carousel-caption text-danger p-0">
                 <h5>fecha interesante</h5>
-                <p>algun evento importante de pelicula o serie que se vaya a subir/estrenar</p>
               </div>
             </div>
 
@@ -57,11 +55,10 @@
               <picture>
                 <source media="(max-width: 576px)" srcset="/imagenes/Casa_dragon1_Low.png">
                 <source media="(max-width: 1200px)" srcset="/imagenes/Casa_dragon1_Medium.png">
-                <img src="/imagenes/Casa_dragon1_HD.png" class="d-block w-100" alt="imagen casa de dragon 1">
+                <img src="/imagenes/Casa_dragon1_HD.png" class="d-block" alt="imagen casa de dragon 1">
               </picture>
               <div class="carousel-caption text-danger p-0">
                 <h5>fecha interesante</h5>
-                <p>algun evento importante de pelicula o serie que se vaya a subir/estrenar</p>
               </div>
             </div>
           </div>
@@ -80,62 +77,38 @@
 
 
         <!--sugerencia de peliculas-->
-        <div class="bg-secondary">
-          <div class="card-group row">
+        <div class="bg-secondary row">
+
+          <div class="col-12 text-start">
+            <h2>Categoria aleatoria <small>Explorar categoria</small></h2>
+          </div>
+
+          <div class="row">
 
             <!--Pelicula 1-->
-            <div class="card text-bg-dark col-5 m-3" style="background-image: url(imagenes/tron_low.jpg); background-size: cover; background-position: center;">
-              <div class="card-img-overlay">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text"><small>Last updated 3 mins ago</small></p>
-              </div>
+            <div class="col-5">
+              <img src="/imagenes/todo_en_todas_partes_Low.jpg" class="img-fluid rounded" alt="todo_en_todas_partes_Low">
             </div>
 
             <!--Pelicula 2-->
-            <div class="card col-5 mt-3 mb-3" style="margin-right: 2vw;">
-              <img src="/imagenes/todo_en_todas_partes_Low.jpg" class="card-img-top" alt="todo_en_todas_partes_Low">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
-              </div>
+            <div class="col-5">
+              <img src="/imagenes/Tron_Low.jpg" class="img-fluid rounded h-100" alt="tron_low">
             </div>
 
             <!--Pelicula 3 (oculta en dispositivos pequeños)-->
-            <div class="card d-none">
-              <img src="..." class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
-                  content. This card has even longer content than the first to show that equal height action.</p>
-                <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
-              </div>
-            </div>
+
 
             <!--Pelicula 4 (oculta en dispositivos pequeños)-->
-            <div class="card d-none">
-              <img src="..." class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
-                  content. This card has even longer content than the first to show that equal height action.</p>
-                <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
-              </div>
-            </div>
+
 
             <!--Pelicula 5 (oculta en dispositivos pequeños)-->
-            <div class="card d-none">
-              <img src="..." class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
-                  content. This card has even longer content than the first to show that equal height action.</p>
-                <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
-              </div>
-            </div>
+
           </div>
         </div>
 
-        <div class="bg-info ">sugerencia de categorias</div>
+        <div class="bg-info ">sugerencia de categorias
+
+        </div>
 
       </section>
 
