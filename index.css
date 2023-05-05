@@ -1,3 +1,14 @@
+*{
+    font-family: 'Optima', sans-serif;
+    font-size: 17px;                                    
+}
+
+/*imagen principal*/
+.carruselPrincipal{
+    height: 45vw;
+}
+
+
 /* config aside */
 aside{
     background-image: url(/imagenes/logos/logo_medio_640.png);
@@ -12,7 +23,7 @@ aside{
 /* config botones en general */
 .btnColores {
     color: white;
-    background-color: #57319b ;
+    background-color: #57319b ;    
 }
 
 .btnColores:hover{
@@ -23,7 +34,7 @@ aside{
 /* config carrusel de series y el de peliculas */
 .altoCarrusel{
     height: 20vw;
-    
+
 }
 
 .portada, .portada1 {
@@ -39,6 +50,10 @@ aside{
 
 
 @media screen and (max-width:1200px){
+    *{
+        font-size: 15px;
+    }
+
     .altoCarrusel{
         height: 25vw;
     }
@@ -60,6 +75,10 @@ aside{
 
 
 @media screen and (max-width:576px){
+    *{
+        font-size: 13px;
+    }
+
     .altoCarrusel{
         height: 40vw;
     }
