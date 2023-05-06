@@ -3,6 +3,11 @@
     font-size: 17px;                                    
 }
 
+main{
+    padding-top: 69px;
+}
+
+
 /*imagen principal*/
 .carruselPrincipal{
     height: 45vw;
@@ -15,12 +20,12 @@
     margin-left: 22vw;
 }
 
-
 /* config aside */
 aside{
     background-image: url(/imagenes/logos/logo_medio_640.png);
     background-repeat: repeat-y;
     background-position: center;   
+    padding-top: 10px;
 }
 
 .collapseAltura {
@@ -38,6 +43,9 @@ aside{
     background-color: #422673;
 }
 
+
+
+
 /* config carrusel de series y el de peliculas */
 .altoCarrusel{
     height: 20vw;
@@ -54,14 +62,14 @@ aside{
     margin-left: 7.5vw;
 }
 
-section{
-    background-color: #2c1a4c;
-}
-
 
 @media screen and (max-width:1200px){
     *{
         font-size: 15px;
+    }
+
+    main{
+        padding-top: 65px;
     }
 
     .interesante{
@@ -86,6 +94,7 @@ section{
         background-repeat: repeat-x;
         background-position: center;
         background-size: cover;
+        padding-top: 8px;
     }
 }
 
