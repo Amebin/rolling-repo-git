@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,19 +9,22 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
   <link href="https://fonts.cdnfonts.com/css/optima" rel="stylesheet">
-  <link rel="stylesheet" href="Nav&Foot.css">  
+  <link rel="stylesheet" href="Nav&Foot.css">
   <link rel="stylesheet" href="main.css">
-               
+
 </head>
 
 <body>
 
   <div class="container-fluid">
 
+    <!--NavBar-->
     <nav class="navbar navbar-expand-lg fixed-top">
       <div class="container-fluid">
-          <img src="/imagenes/logos/logonav.png" alt="logo" class="img_logo">
-        <button class="navbar-toggler btn_menu" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <img src="/imagenes/logos/logonav.png" alt="logo" class="img_logo">
+        <button class="navbar-toggler btn_menu" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+          aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
       </div>
@@ -29,7 +33,8 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="margin-right: 15px;">
+              <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false" style="margin-right: 15px;">
                 <i class="bi bi-globe"></i>
                 Idioma
               </a>
@@ -39,7 +44,8 @@
               </ul>
             </li>
             <li class="nav-item">
-              <a class="nav-link active text-light" aria-current="page" href="#" style="margin-right: 10px"> Iniciar sesion</a>
+              <a class="nav-link active text-light" aria-current="page" href="#" style="margin-right: 10px"> Iniciar
+                sesion</a>
             </li>
             <li class="nav-item">
               <button class="btn btn-sm btn-outline-light btn_suscribirse" type="button">Suscribirme</button>
@@ -53,55 +59,57 @@
       </div>
     </nav>
 
+    <!--Main-->
     <main class="flex-wrap-reverse row">
 
       <!--contenido principal de la pagina-->
       <section class="col-xl-10 col-lg-12 bg-dark">
 
         <!--imagen o video principal-->
-        
-          <div id="carouselExampleCaptions" class="carousel slide carousel-fade bg-light overflow-hidden " data-bs-ride="carousel">
-            <div class="carousel-inner">
 
-              <!--Slide 1-->
-              <div class="carousel-item active carruselPrincipal" data-bs-interval="3500">
-                <picture>
-                  <source media="(max-width: 576px)" srcset="/imagenes/Casa_dragon3_Low.jpg">
-                  <source media="(max-width: 1200px)" srcset="/imagenes/Casa_dragon3_Medium.jpg">
-                  <img src="/imagenes/Casa_dragon3_HQ.jpg" class="w-100 " alt="imagen casa de dragon 1">
-                </picture>
+        <div id="carouselExampleCaptions" class="carousel slide carousel-fade bg-light overflow-hidden "
+          data-bs-ride="carousel">
+          <div class="carousel-inner">
 
-                <div class="carousel-caption btnColores interesante rounded">
-                  <h5>fecha interesante</h5>
-                </div>
-              </div>
+            <!--Slide 1-->
+            <div class="carousel-item active carruselPrincipal" data-bs-interval="3500">
+              <picture>
+                <source media="(max-width: 576px)" srcset="/imagenes/Casa_dragon3_Low.jpg">
+                <source media="(max-width: 1200px)" srcset="/imagenes/Casa_dragon3_Medium.jpg">
+                <img src="/imagenes/Casa_dragon3_HQ.jpg" class="w-100 " alt="imagen casa de dragon 1">
+              </picture>
 
-              <!--Slide 2-->
-              <div class="carousel-item carruselPrincipal" data-bs-interval="3500">
-                <picture>
-                  <source media="(max-width: 576px)" srcset="/imagenes/Casa_dragon2_Low.jpg">
-                  <source media="(max-width: 1200px)" srcset="/imagenes/Casa_dragon2_Medium.jpg">
-                  <img src="/imagenes/Casa_dragon2_HQ.jpg" class="w-100 " alt="imagen casa de dragon 1">
-                </picture>
-                <div class="carousel-caption  btnColores interesante rounded">
-                  <h5>fecha interesante</h5>
-                </div>
-              </div>
-
-              <!--Slide 3-->
-              <div class="carousel-item carruselPrincipal" data-bs-interval="3500">
-                <picture>
-                  <source media="(max-width: 576px)" srcset="/imagenes/Casa_dragon1_Low.png">
-                  <source media="(max-width: 1200px)" srcset="/imagenes/Casa_dragon1_Medium.png">
-                  <img src="/imagenes/Casa_dragon1_HD.png" class="w-100 " alt="imagen casa de dragon 1">
-                </picture>
-                <div class="carousel-caption  btnColores interesante rounded">
-                  <h5>fecha interesante</h5>
-                </div>
+              <div class="carousel-caption btnColores interesante rounded">
+                <h5>fecha interesante</h5>
               </div>
             </div>
-          
-            <!--botones-->
+
+            <!--Slide 2-->
+            <div class="carousel-item carruselPrincipal" data-bs-interval="3500">
+              <picture>
+                <source media="(max-width: 576px)" srcset="/imagenes/Casa_dragon2_Low.jpg">
+                <source media="(max-width: 1200px)" srcset="/imagenes/Casa_dragon2_Medium.jpg">
+                <img src="/imagenes/Casa_dragon2_HQ.jpg" class="w-100 " alt="imagen casa de dragon 1">
+              </picture>
+              <div class="carousel-caption  btnColores interesante rounded">
+                <h5>fecha interesante</h5>
+              </div>
+            </div>
+
+            <!--Slide 3-->
+            <div class="carousel-item carruselPrincipal" data-bs-interval="3500">
+              <picture>
+                <source media="(max-width: 576px)" srcset="/imagenes/Casa_dragon1_Low.png">
+                <source media="(max-width: 1200px)" srcset="/imagenes/Casa_dragon1_Medium.png">
+                <img src="/imagenes/Casa_dragon1_HD.png" class="w-100 " alt="imagen casa de dragon 1">
+              </picture>
+              <div class="carousel-caption  btnColores interesante rounded">
+                <h5>fecha interesante</h5>
+              </div>
+            </div>
+          </div>
+
+          <!--botones-->
           <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
             data-bs-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -123,36 +131,85 @@
           </div>
 
           <!--carrusel de series-->
-          <div id="carouselSeries" class="carousel slide mb-2 mt-1" >
+          <div id="carouselSeries" class="carousel slide mb-2 mt-1">
             <div class="carousel-inner">
 
               <!--caratula 1-->
               <div class="carousel-item active altoCarrusel">
-                <img src="/imagenes/catalogo series/yelowwjacket.jpg" class="portada espaciandoPrimera rounded-5"
-                  alt="yelowwjacket">
-                <img src="/imagenes/catalogo series/wolfpack.jpg " class="portada rounded-5" alt="wolfpack">
-                <img src="/imagenes/catalogo series/vampire.jpg" class="portada1 rounded-5" alt="vampire">
-                <img src="/imagenes/catalogo series/thestand.jpg" class="portada1 rounded-5" alt="thestand">
-                <img src="/imagenes/catalogo series/slasher.jpg" class="portada1 rounded-5" alt="slasher">
+                <a href="">
+                  <img src="/imagenes/catalogo series/yelowwjacket.jpg" class="portada espaciandoPrimera rounded-5"
+                    alt="yelowwjacket">
+
+                </a>
+                <a href="error404.html">
+                  <img src="/imagenes/catalogo series/wolfpack.jpg " class="portada rounded-5" alt="wolfpack">
+
+                </a>
+                <a href="error404.html">
+                  <img src="/imagenes/catalogo series/vampire.jpg" class="portada1 rounded-5" alt="vampire">
+
+                </a>
+                <a href="error404.html">
+                  <img src="/imagenes/catalogo series/thestand.jpg" class="portada1 rounded-5" alt="thestand">
+
+                </a>
+                <a href="error404.html">
+                  <img src="/imagenes/catalogo series/slasher.jpg" class="portada1 rounded-5" alt="slasher">
+
+                </a>
               </div>
 
               <!--caratula 2-->
               <div class="carousel-item altoCarrusel">
-                <img src="/imagenes/catalogo series/misamedianoche.jpg" class="portada espaciandoPrimera rounded-5"
-                  alt="misamedianoche">
-                <img src="/imagenes/catalogo series/mariane.jpg" class="portada rounded-5" alt="mariane">
-                <img src="/imagenes/catalogo series/maldicionhillhouse.jpg" class="portada1 rounded-5" alt="maldicionhillhouse">
-                <img src="/imagenes/catalogo series/maldiciondemanor.jpg" class="portada1 rounded-5" alt="maldiciondemanor">
-                <img src="/imagenes/catalogo series/lastofus.jpg" class="portada1 rounded-5" alt="lastofus">
+
+                <a href="error404.html">
+                  <img src="/imagenes/catalogo series/misamedianoche.jpg" class="portada espaciandoPrimera rounded-5"
+                    alt="misamedianoche">
+                </a>
+
+                <a href="error404.html">
+                  <img src="/imagenes/catalogo series/mariane.jpg" class="portada rounded-5" alt="mariane">
+                </a>
+
+                <a href="error404.html">
+                  <img src="/imagenes/catalogo series/maldicionhillhouse.jpg" class="portada1 rounded-5"
+                    alt="maldicionhillhouse">
+                </a>
+
+                <a href="error404.html">
+                  <img src="/imagenes/catalogo series/maldiciondemanor.jpg" class="portada1 rounded-5"
+                    alt="maldiciondemanor">
+                </a>
+
+                <a href="error404.html">
+                  <img src="/imagenes/catalogo series/lastofus.jpg" class="portada1 rounded-5" alt="lastofus">
+                </a>
               </div>
 
               <!--caratula 3-->
               <div class="carousel-item altoCarrusel">
-                <img src="/imagenes/catalogo series/kingdom.jpg" class="portada espaciandoPrimera rounded-5" alt="kingdom">
-                <img src="/imagenes/catalogo series/juon.jpg" class="portada rounded-5" alt="juon">
-                <img src="/imagenes/catalogo series/gabinete.jpg" class="portada1 rounded-5" alt="gabinete">
-                <img src="/imagenes/catalogo series/blacksumer.jpg" class="portada1 rounded-5" alt="blacksumer">
-                <img src="/imagenes/catalogo series/americanhorror.jpg" class="portada1 rounded-5" alt="americanhorror">
+
+                <a href="error404.html">
+                  <img src="/imagenes/catalogo series/kingdom.jpg" class="portada espaciandoPrimera rounded-5"
+                    alt="kingdom">
+                </a>
+
+                <a href="error404.html">
+                  <img src="/imagenes/catalogo series/juon.jpg" class="portada rounded-5" alt="juon">
+                </a>
+
+                <a href="error404.html">
+                  <img src="/imagenes/catalogo series/gabinete.jpg" class="portada1 rounded-5" alt="gabinete">
+                </a>
+
+                <a href="error404.html">
+                  <img src="/imagenes/catalogo series/blacksumer.jpg" class="portada1 rounded-5" alt="blacksumer">
+                </a>
+                
+                <a href="error404.html">
+                  <img src="/imagenes/catalogo series/americanhorror.jpg" class="portada1 rounded-5"
+                    alt="americanhorror">
+                </a>
               </div>
             </div>
 
@@ -180,37 +237,89 @@
 
               <!--slide 1-->
               <div class="carousel-item active altoCarrusel">
-                <img src="/imagenes/catalogo peliculas/yorobot.jpg" class="portada espaciandoPrimera rounded-5" alt="yorobot">
-                <img src="/imagenes/catalogo peliculas/vanhellsing.jpg" class="portada rounded-5" alt="vanhellsing">
-                <img src="/imagenes/catalogo peliculas/uncharted.jpg" class="portada1 rounded-5" alt="uncharted">
-                <img src="/imagenes/catalogo peliculas/tron1.jpg" class="portada1 rounded-5" alt="tron1">
-                <img src="/imagenes/catalogo peliculas/transformers.jpg" class="portada1 rounded-5" alt="transformers">
+
+                <a href="">
+                  <img src="/imagenes/catalogo peliculas/yorobot.jpg" class="portada espaciandoPrimera rounded-5"
+                    alt="yorobot">
+                </a>
+
+                <a href="error404.html">
+                  <img src="/imagenes/catalogo peliculas/vanhellsing.jpg" class="portada rounded-5" alt="vanhellsing">
+                </a>
+
+                <a href="error404.html">
+                  <img src="/imagenes/catalogo peliculas/uncharted.jpg" class="portada1 rounded-5" alt="uncharted">
+                </a>
+
+                <a href="error404.html">
+                  <img src="/imagenes/catalogo peliculas/tron1.jpg" class="portada1 rounded-5" alt="tron1">
+                </a>
+
+                <a href="error404.html">
+                  <img src="/imagenes/catalogo peliculas/transformers.jpg" class="portada1 rounded-5"
+                    alt="transformers">
+                </a>
               </div>
 
               <!--slide 2-->
               <div class="carousel-item altoCarrusel">
-                <img src="/imagenes/catalogo peliculas/todo_en_todas_partes.jpg" class="portada espaciandoPrimera rounded-5" alt="todo_en_todas_partes">
-                <img src="/imagenes/catalogo peliculas/terminator.jpg" class="portada rounded-5" alt="terminator">
-                <img src="/imagenes/catalogo peliculas/matrix.jpg" class="portada1 rounded-5" alt="matrix">
-                <img src="/imagenes/catalogo peliculas/madmax.jpg" class="portada1 rounded-5" alt="madmax">
-                <img src="/imagenes/catalogo peliculas/jurrassicwordl.jpg" class="portada1 rounded-5" alt="jurrassicwordl">
+
+                <a href="error404.html">
+                  <img src="/imagenes/catalogo peliculas/todo_en_todas_partes.jpg"
+                    class="portada espaciandoPrimera rounded-5" alt="todo_en_todas_partes">
+                </a>
+
+                <a href="error404.html">
+                  <img src="/imagenes/catalogo peliculas/terminator.jpg" class="portada rounded-5" alt="terminator">
+                </a>
+
+                <a href="error404.html">
+                  <img src="/imagenes/catalogo peliculas/matrix.jpg" class="portada1 rounded-5" alt="matrix">
+                </a>
+
+                <a href="error404.html">
+                  <img src="/imagenes/catalogo peliculas/madmax.jpg" class="portada1 rounded-5" alt="madmax">
+                </a>
+
+                <a href="error404.html">
+                  <img src="/imagenes/catalogo peliculas/jurrassicwordl.jpg" class="portada1 rounded-5"
+                    alt="jurrassicwordl">
+                </a>
               </div>
 
               <!--slide 3-->
               <div class="carousel-item altoCarrusel">
-                <img src="/imagenes/catalogo peliculas/fastfurius.jpg" class="portada espaciandoPrimera rounded-5" alt="fastfurius">
-                <img src="/imagenes/catalogo peliculas/et.jpg" class="portada rounded-5" alt="et">
-                <img src="/imagenes/catalogo peliculas/avengers2.jpg" class="portada1 rounded-5" alt="avengers2">
-                <img src="/imagenes/catalogo peliculas/avengers.jpg" class="portada1 rounded-5" alt="avengers">
-                <img src="/imagenes/catalogo peliculas/avatar.jpg" class="portada1 rounded-5" alt="avatar">
+
+                <a href="error404.html">
+                  <img src="/imagenes/catalogo peliculas/fastfurius.jpg" class="portada espaciandoPrimera rounded-5"
+                    alt="fastfurius">
+                </a>
+
+                <a href="error404.html">
+                  <img src="/imagenes/catalogo peliculas/et.jpg" class="portada rounded-5" alt="et">
+                </a>
+
+                <a href="error404.html">
+                  <img src="/imagenes/catalogo peliculas/avengers2.jpg" class="portada1 rounded-5" alt="avengers2">
+                </a>
+
+                <a href="error404.html">
+                  <img src="/imagenes/catalogo peliculas/avengers.jpg" class="portada1 rounded-5" alt="avengers">
+                </a>
+
+                <a href="error404.html">
+                  <img src="/imagenes/catalogo peliculas/avatar.jpg" class="portada1 rounded-5" alt="avatar">
+                </a>
               </div>
             </div>
 
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselPeliculas" data-bs-slide="prev">
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselPeliculas"
+              data-bs-slide="prev">
               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
               <span class="visually-hidden">Previous</span>
             </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselPeliculas" data-bs-slide="next">
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselPeliculas"
+              data-bs-slide="next">
               <span class="carousel-control-next-icon" aria-hidden="true"></span>
               <span class="visually-hidden">Next</span>
             </button>
@@ -223,7 +332,7 @@
       <!--Aside con ofertas de suscripcion-->
       <aside class="bg-danger col-xl-2 col-lg-12">
         <div>
-          <div class="text-center" >
+          <div class="text-center">
             <p>
               <button class="btn btnColores mt-2" type="button" data-bs-toggle="collapse"
                 data-bs-target="#collapsePromocion" aria-expanded="false" aria-controls="collapsePromocion">
@@ -233,8 +342,10 @@
             <div class="d-flex justify-content-center">
               <div class="collapse collapse-horizontal" id="collapsePromocion">
                 <div class="card card-body collapseAltura" style="width: 100%; ">
-                  <p>Contratando ahora llevate el supuesto plan familia en el que solo podes ver en 2 pantallas en total entre todos los perfiles por u$d 200 al mes</p>
-                  <p class="d-xl-flex d-none">no pierdas esta promocion increible que te engañara por el resto de tu vida
+                  <p>Contratando ahora llevate el supuesto plan familia en el que solo podes ver en 2 pantallas en total
+                    entre todos los perfiles por u$d 200 al mes</p>
+                  <p class="d-xl-flex d-none">no pierdas esta promocion increible que te engañara por el resto de tu
+                    vida
                     (como netflix)</p>
                 </div>
 
@@ -253,6 +364,7 @@
 
     </main>
 
+    <!--footer-->
     <footer class="" style="background-color: orange; height: 15vh;">footer</footer>
 
   </div>
