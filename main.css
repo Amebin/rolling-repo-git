@@ -3,6 +3,10 @@
     font-size: 17px;                                    
 }
 
+a:link, a:visited, a:active {
+    text-decoration:none;
+}
+
 main{
     padding-top: 69px;
 }
