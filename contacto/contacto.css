@@ -1,0 +1,34 @@
+.conteiner-form{
+    width: 100%;
+    margin: 0%;
+    padding: 5em;
+    background-image: url(https://infonegocios.info/content/images/2022/07/21/139530/rollingcode-tucuman-2.jpg);
+}
+
+form{
+    color: white;
+    background-color: #160D26;
+    margin: 0%;
+    padding: 0.5em;
+}
+
+.conteiner-form i{
+    color: #160D26;
+    margin-right: 0.5em;
+}
+
+.conteiner-form a{
+    color: #160D26;
+}
+
+.conteiner-form h2{
+    color:black;
+}
+
+.conteiner-form p{
+    color:black;
+}
+
+.conteiner-form h4{
+    color:black;
+}

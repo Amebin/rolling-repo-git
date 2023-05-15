@@ -33,7 +33,7 @@ aside{
 }
 
 .collapseAltura {
-    min-height: 25vh;
+    height: auto;
 }
 
 /* config botones en general */
@@ -81,9 +81,7 @@ aside{
         margin-left: 18vw;
     }
     
-    .collapseAltura {
-        height: 9vh;
-    }
+
 
     .altoCarrusel{
         height: 25vw;
@@ -113,9 +111,7 @@ aside{
         margin-left: 8vw;
     }
     
-        .collapseAltura {
-            height: 19vh;
-        }
+
 
     .altoCarrusel{
         height: 40vw;
