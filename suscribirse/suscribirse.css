@@ -1,0 +1,80 @@
+*{
+    font-family: 'Optima', sans-serif;
+    font-size: 17px;                                    
+} 
+
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}   
+
+main{
+    
+    height: 80vh;
+}
+
+.col-lg-4{
+    padding: 0px;
+    margin-top: 57px;
+    display: flex;
+    justify-content: center;
+}
+
+.row{
+    margin: 0px;
+    padding: 0px;
+}
+
+.card{
+    width: 17rem;
+    display: flex;
+    color: aliceblue;
+   background-color: #2C1A4C;
+   text-align: center;
+   justify-content: center;
+   align-items: center;
+}
+
+.card-body{
+    color: aliceblue;
+    background-color: #2C1A4C;
+    border-top: 10px    ;
+}
+
+#card-title{
+    color: aliceblue;
+   background-color: #2C1A4C;
+}
+
+#card-text{
+    color: aliceblue;
+    background-color: #2C1A4C;
+}
+
+@media screen and (max-width: 992px){
+    main{
+        height: 175vh;
+    }
+    #primera-card{
+        margin-top: 57px;
+    }
+    .col-lg-4{
+        margin-top: 5px;
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        justify-content: center;
+    }
+    .card{
+        width: 200px;
+    }
+    .card-body{
+        font-size: 10px;
+    }
+    .card img{
+        height: 100px;
+        width: 200px;
+    }
+}   
