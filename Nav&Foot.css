@@ -1,5 +1,6 @@
 *{
-    font-family: 'Optima', sans-serif;                         
+    font-family: 'Optima', sans-serif;     
+    font-size: 17px;                    
 }
 nav, footer{
     background-color: #160d26;
@@ -34,3 +35,18 @@ nav, footer{
     
 }
 
+@media screen and (max-width:1200px){
+    *{
+        font-size: 15px;
+    }
+
+    main{
+        padding-top: 65px;
+    }
+}
+
+@media screen and (max-width:576px){
+    *{
+        font-size: 13px;
+    }
+}
