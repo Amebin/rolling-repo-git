@@ -11,7 +11,6 @@ main{
     padding-top: 69px;
 }
 
-
 /*imagen principal*/
 .carruselPrincipal{
     height: 45vw;
@@ -47,13 +46,9 @@ aside{
     background-color: #422673;
 }
 
-
-
-
 /* config carrusel de series y el de peliculas */
 .altoCarrusel{
     height: 20vw;
-
 }
 
 .portada, .portada1 {
@@ -65,7 +60,6 @@ aside{
 .espaciandoPrimera{
     margin-left: 7.5vw;
 }
-
 
 @media screen and (max-width:1200px){
     *{
@@ -81,13 +75,10 @@ aside{
         margin-left: 18vw;
     }
     
-
-
     .altoCarrusel{
         height: 25vw;
     }
 
-    
     .espaciandoPrimera{
         margin-left: 9vw;
     }
@@ -100,7 +91,6 @@ aside{
     }
 }
 
-
 @media screen and (max-width:576px){
     *{
         font-size: 13px;
@@ -111,12 +101,9 @@ aside{
         margin-left: 8vw;
     }
     
-
-
     .altoCarrusel{
         height: 40vw;
     }
-
 
     .portada1 {
         display: none;

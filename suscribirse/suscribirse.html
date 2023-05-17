@@ -63,61 +63,112 @@
       </nav>
   
   
-      <main class="bg-dark">  
-          <div class="container-main">
-            <div class="row">
-              <div class="col-lg-4" id="primera-card">  
-                  <div class="card">
-                      <img src="./imagenes/SUB-ESTANDAR.jpg" class="card-img-top" alt="aqui se muestra la imagen del pack ESTANDAR">
-                      <div class="card-body">
-                          <h5 class="card-title text-center" id="card-title">ESTANDAR</h5>
-                          <p class="card-text" id="card-text">
-                            Calidad de video: buena  <br>
-                            Resolucion: 720p <br>
-                            Dispositivos: 1 <br>
-                          <b>AHORRAS 0 USD</b>
-                          </p>
-                          <a href="/error404.html" class="btn btn-primary">SUSCRIBIRSE</a>
-                      </div>
-                  </div>          
-              </div>
-  
-           <div class="col-lg-4">
-              <div class="card">
-                  <img src="./imagenes/SUB-PREMIUM.jpg" class="card-img-top" alt="aqui se muestra la imagen del pack PREMIUM">
-                  <div class="card-body">
-                      <h5 class="card-title text-center" id="card-title">PREMIUM</h5>
-                      <p class="card-text" id="card-text">
-                          Calidad de video: mejor  <br>
-                          Resolucion: 1080p <br>
-                          Dispositivos: 2 <br>
-                          <b>AHORRAS 1,40 USD</b>
-                      </p>
-                      <a href="/error404.html" class="btn btn-primary">SUSCRIBIRSE</a>
-                  </div>
-              </div>
-           </div>
-  
-           <div class="col-lg-4">
-  
-              <div class="card">
-                  <img src="./imagenes/SUB-MPREMIUM.jpg" class="card-img-top" alt="aqui se muestra la imagen del pack MPREMIUM">
-                  <div class="card-body">
-                      <h5 class="card-title text-center" id="card-title">MEGA PREMIUM</h5>
-                      <p class="card-text" id="card-text">
-                          Calidad de video: optima   <br>
-                          Resolucion: 4k <br>
-                          Dispositivos: 4 <br>
-                          <b>AHORRAS 1,8 USD</b>
-  
+      <main class="  bg-dark">  
+        <div class="container-main d-flex flex-column justify-content-center align-items-center">
+          <div class="row col-xl-8 col-lg-12 col-md-12  ">
+            <div class="col-lg-4 " id="card-container">  
+                <div class="card ">
+                    <img src="./imagenes/SUB-ESTANDAR.jpg" class="card-img-top" alt="aqui se muestra la imagen del pack ESTANDAR">
+                    <div class="card-body">
+                        <h5 class="card-title text-center" id="card-title">ESTANDAR</h5>
+                        <p class="card-text" id="card-text">
+                          Calidad de video: buena  <br>
+                          Resolucion: 720p <br>
+                          Dispositivos: 1 <br>
+                        <b>AHORRAS 0 USD</b>
                         </p>
-                      <a href="/error404.html" class="btn btn-primary">SUSCRIBIRSE</a>
-                  </div>
-              </div>
-           </div>
-          </div>  
-  
-      </main>
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                         Suscribirse
+                        </button>
+                        
+                        <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                          <div class="modal-dialog">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="staticBackdropLabel">CREAR CUENTA</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                              </div>
+                              <div class="modal-body">
+                              
+                                <select class="form-select" aria-label="Default select example">
+                                  <option selected class="text-center">Elegi tu suscripcion</option>
+                                  <option value="1" class="text-center">ESTANDAR</option>
+                                  <option value="2" class="text-center">PREMIUM</option>
+                                  <option value="3" class="text-center">MEGA PREMIUM</option>
+                                </select>
+                                <form class="row g-3">
+                                  <div class="col-md-6">
+                                    <label for="name" class="form-label">Nombre</label>
+                                    <input type="name" class="form-control" id="name">
+                                  </div>
+                                  <div class="col-md-6">
+                                    <label for="name" class="form-label">Apellido</label>
+                                    <input type="name" class="form-control" id="name">
+                                  </div>
+                                  <div class="col-12">
+                                    <label for="imputEmail4" class="form-label">Email</label>
+                                    <input type="email" class="form-control" id="inputEmail4">
+                                  </div>
+                                  <div class="col-12">
+                                    <label for="inputPassword4" class="form-label">Contraseña</label>
+                                    <input type="password" class="form-control" id="inputPassword4">
+                                  </div>                                 
+                                </form>
+
+
+
+                              </div>
+                              <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Volver</button>
+                                <a href="../error404.html" type="button" class="btn btn-primary">Suscribirse</a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                </div>          
+            </div>
+
+         <div class="col-lg-4" id="card-container" >
+            <div class="card">
+                <img src="./imagenes/SUB-PREMIUM.jpg" class="card-img-top" alt="aqui se muestra la imagen del pack PREMIUM">
+                <div class="card-body">
+                    <h5 class="card-title text-center" id="card-title">PREMIUM</h5>
+                    <p class="card-text" id="card-text">
+                        Calidad de video: mejor  <br>
+                        Resolucion: 1080p <br>
+                        Dispositivos: 2 <br>
+                        <b>AHORRAS 1,40 USD</b>
+                    </p>
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                      Suscribirse
+                     </button>
+                </div>
+            </div>
+         </div>
+
+         <div class="col-lg-4" id="card-container">
+
+            <div class="card">
+                <img src="./imagenes/SUB-MPREMIUM.jpg" class="card-img-top" alt="aqui se muestra la imagen del pack MPREMIUM">
+                <div class="card-body">
+                    <h5 class="card-title text-center" id="card-title">MEGA PREMIUM</h5>
+                    <p class="card-text" id="card-text">
+                        Calidad de video: optima   <br>
+                        Resolucion: 4k <br>
+                        Dispositivos: 4 <br>
+                        <b>AHORRAS 1,8 USD</b>
+
+                      </p>
+                      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                        Suscribirse
+                       </button>
+                </div>
+            </div>
+         </div>
+        </div>  
+
+    </main>
   
       <footer class="row text-center pt-4 text-white">
         <div class="container-fluid">
