@@ -14,7 +14,8 @@ main{
 .text-bienvenidos{
     color: white;
 }
-.form-login{   
+
+.form-login{
     display: flex;
     flex-direction: column;
     width: auto;
@@ -22,22 +23,23 @@ main{
     color: white;
     background-color: black;
     margin: 7px;
+    padding: 10px;
 }
-.col-lg-12{
+.container-form{
     background-color: black;
-    
+
 }
-.mb-3{
+.items-form{
     background-color: black;
 }
-.mb-3 a{
+.items-form a{
     text-decoration: none;
     list-style: none;
 }
-.mb-3 p, a, label{
+.items-form p a label{
     background-color: black;
 }
 #button-form{
     background-color: #2C1A4C;
-    align-items: center;    
+    align-items: center;
 }
