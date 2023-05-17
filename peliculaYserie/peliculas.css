@@ -25,27 +25,67 @@ main{
 }
 
 .portada, .portada1 {
-    width: 15%;
+    width: 13%;
     height: 100%;
     margin-left: 1vw;
 }
 
 .espaciandoPrimera{
-    margin-left: 7.5vw;
+    margin-left: 14vw;
+}
+
+.dahmer-principal{
+    height: 50vh;
 }
 
 @media screen and (max-width:1200px){
     *{
-        font-size: 15px;
+        font-size: 17px;
     }
 
     main{
         padding-top: 65px;
     }
+    .altoCarrusel{
+        height: 25vw;
+
+    }
+
+    .portada, .portada1 {
+        width: 15%;
+       
+        
+    } 
+    .espaciandoPrimera{
+        margin-left: 9vw;
+    } 
 }
 
 @media screen and (max-width:576px){
     *{
-        font-size: 13px;
+        font-size: 9px;
+
     }
+
+    .dahmer-principal{
+        height: 30vh;
+    }
+
+    .altoCarrusel{
+        height: 40vw;
+    }
+
+
+    .portada1 {
+        display: none;
+    }
+
+    .portada{
+        width: 30%;
+        margin-left: 5vw;
+    }
+
+    .espaciandoPrimera{
+        margin-left: 17vw;
+    } 
 }

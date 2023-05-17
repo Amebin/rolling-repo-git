@@ -69,125 +69,200 @@
 
         <main class="row  d-flex justify-content-center  bg-dark">
 
-            <!--contenido principal-->
-            <div class="col-7 pt-4 pb-4">
-                <div class="card mb-3">
-                    <div class="row g-0">
-                      <div class="col-6">
-                        <img src="../imagenes/catalogo peliculas/AvengerEndgamePoster.png" class="img-fluid rounded-start" alt="AvengerEndgamePoster">
-                      </div>
-                      <div class="col-6  colorPeliculaFondo">
-                        <div class="card-body">
-                          <h5 class="card-title">Descripcion</h5>
-                          <p class="card-text">Después de los eventos devastadores de "Avengers: Infinity War", el universo está en ruinas debido a las acciones de Thanos, el Titán Loco. Con la ayuda de los aliados que quedaron, los Vengadores deberán reunirse una vez más para intentar detenerlo y restaurar el orden en el universo de una vez por todas </p>
-                          <p class="card-text"><small class="">Gran estreno 2023</small></p>
+          <!--contenido principal para disp grandes-->
+          <div class="col-xl-7 col-md-9 d-lg-block d-none pt-4 pb-4">
+            <div class="card mb-3">
+              <div class="row g-0">
+                <div class="col-6">
+                  <img src="/imagenes/catalogo peliculas/AvengerEndgamePoster.png"
+                    class="img-fluid rounded-start" alt="AvengerEndgamePoster">
+                </div>
+                <div class="col-6  colorPeliculaFondo">
+                  <div class="card-body">
+                    <h5 class="card-title">Descripcion</h5>
+                    <p class="card-text">Después de los eventos devastadores de "Avengers: Infinity War", el universo está
+                      en ruinas debido a las acciones de Thanos, el Titán Loco. Con la ayuda de los aliados que quedaron,
+                      los Vengadores deberán reunirse una vez más para intentar detenerlo y restaurar el orden en el
+                      universo de una vez por todas </p>
+                    <p class="card-text"><small class=""> 2019 3h 2min HD </small></p>
+                    <p class="card-text"><small class="">Edad sugerida +13 </small></p>
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-outline-secondary" data-bs-toggle="modal"
+                      data-bs-target="#exampleModal">
+                      Reproducir
+                    </button>
+    
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                      aria-hidden="true">
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                           
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body">
+                            <p class="text-black">
+                              Para reproducir este contenido debes iniciar sesion
+                            </p>
+                          </div>
+                          <div class="modal-footer">
+                            <a href="/login/login.html" type="button" class="btn text-secondary">Iniciar sesion</a>
+                            <a href="/suscribirse/suscribirse.html" type="button" class="btn text-primary ">Suscribirse</a>
+                          </div>
                         </div>
                       </div>
                     </div>
+    
                   </div>
+                </div>
+              </div>
             </div>
+          </div>
 
-            <!--sugerencia de peliculas-->
-        <div class=" row ">
-
+         <!-- contenido principal para disp pequenos --> 
+         <div class="d-lg-none d-block">
+          <div class="card mb-3">
+            <img src="/imagenes/catalogo peliculas/avengers_horizontal_medium.jpg" class="card-img-top" alt="...">
+            <div class="card-body colorPeliculaFondo">
+              <h5 class="card-title">Descripcion</h5>
+              <p class="card-text">Después de los eventos devastadores de "Avengers: Infinity War", el universo está
+                en ruinas debido a las acciones de Thanos, el Titán Loco. Con la ayuda de los aliados que quedaron,
+                los Vengadores deberán reunirse una vez más para intentar detenerlo y restaurar el orden en el
+                universo de una vez por todas </p>
+              <p class="card-text"><small class=""> 2019 3h 2min HD </small></p>
+              <p class="card-text"><small class="">Edad sugerida +13 </small></p>
+              <!-- Button trigger modal -->
+              <button type="button" class="btn btn-outline-secondary" data-bs-toggle="modal"
+                data-bs-target="#modalpequeno">
+                Reproducir
+              </button>
+    
+              <!-- Modal -->
+              <div class="modal fade" id="modalpequeno" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                     
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <p class="text-black">
+                        Para reproducir este contenido debes iniciar sesion
+                      </p>
+                    </div>
+                    <div class="modal-footer">
+                      <a href="/login/login.html" type="button" class="btn text-secondary">Iniciar sesion</a>
+                      <a href="/suscribirse/suscribirse.html" type="button" class="btn text-primary ">Suscribirse</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+    
+            </div>
+          </div>
+         </div>
+    
+          <!--sugerencia de peliculas-->
+          <div class=" row ">
+    
             <div class="mt-2 mb-1">
-              <a href="../categorias/peliculas.html" class="btn text-light">Explorar categoria<small> Peliculas de ciencia ficcion </small></a>
+              <a href="../categorias/peliculas.html" class="btn text-light">Explorar categoria<small> Peliculas de ciencia
+                  ficcion </small></a>
             </div>
-  
+    
             <!--carrusel de peliculas-->
             <div id="carouselPeliculas" class="carousel slide mb-3 mt-1" data-bs-ride="carousel">
               <div class="carousel-inner">
-  
+    
                 <!--slide 1-->
                 <div class="carousel-item active altoCarrusel" data-bs-interval="9500">
-  
-                  <a href="../error404.html">
-                    <img src="../imagenes/catalogo peliculas/adam.webp" class="portada espaciandoPrimera rounded-5"
+    
+                  <a href="/error404.html">
+                    <img src="/imagenes/catalogo peliculas/adam.webp" class="portada espaciandoPrimera rounded-5"
                       alt="adam">
                   </a>
-  
-                  <a href="error404.html">
+    
+                  <a href="/error404.html">
                     <img src="/imagenes/catalogo peliculas/vanhellsing.jpg" class="portada rounded-5" alt="vanhellsing">
                   </a>
-  
-                  <a href="error404.html">
+    
+                  <a href="/error404.html">
                     <img src="/imagenes/catalogo peliculas/uncharted.jpg" class="portada1 rounded-5" alt="uncharted">
                   </a>
-  
-                  <a href="error404.html">
+    
+                  <a href="/error404.html">
                     <img src="/imagenes/catalogo peliculas/tron1.jpg" class="portada1 rounded-5" alt="tron1">
                   </a>
-  
-                  <a href="error404.html">
-                    <img src="/imagenes/catalogo peliculas/transformers.jpg" class="portada1 rounded-5"
-                      alt="transformers">
+    
+                  <a href="/error404.html">
+                    <img src="/imagenes/catalogo peliculas/transformers.jpg" class="portada1 rounded-5" alt="transformers">
                   </a>
                 </div>
-  
+    
                 <!--slide 2-->
                 <div class="carousel-item altoCarrusel" data-bs-interval="10000">
-  
-                  <a href="error404.html">
+    
+                  <a href="/error404.html">
                     <img src="/imagenes/catalogo peliculas/todo_en_todas_partes.jpg"
                       class="portada espaciandoPrimera rounded-5" alt="todo_en_todas_partes">
                   </a>
-  
-                  <a href="error404.html">
+    
+                  <a href="/error404.html">
                     <img src="/imagenes/catalogo peliculas/terminator.jpg" class="portada rounded-5" alt="terminator">
                   </a>
-  
-                  <a href="error404.html">
+    
+                  <a href="/error404.html">
                     <img src="/imagenes/catalogo peliculas/matrix.jpg" class="portada1 rounded-5" alt="matrix">
                   </a>
-  
-                  <a href="error404.html">
+    
+                  <a href="/error404.html">
                     <img src="/imagenes/catalogo peliculas/madmax.jpg" class="portada1 rounded-5" alt="madmax">
                   </a>
-  
-                  <a href="error404.html">
+    
+                  <a href="/error404.html">
                     <img src="/imagenes/catalogo peliculas/jurrassicwordl.jpg" class="portada1 rounded-5"
                       alt="jurrassicwordl">
                   </a>
                 </div>
-  
+    
                 <!--slide 3-->
                 <div class="carousel-item altoCarrusel" data-bs-interval="10000">
-  
-                  <a href="error404.html">
+    
+                  <a href="/error404.html">
                     <img src="/imagenes/catalogo peliculas/fastfurius.jpg" class="portada espaciandoPrimera rounded-5"
                       alt="fastfurius">
                   </a>
-  
-                  <a href="error404.html">
+    
+                  <a href="/error404.html">
                     <img src="/imagenes/catalogo peliculas/et.jpg" class="portada rounded-5" alt="et">
                   </a>
-  
-                  <a href="error404.html">
+    
+                  <a href="/error404.html">
                     <img src="/imagenes/catalogo peliculas/avengers2.jpg" class="portada1 rounded-5" alt="avengers2">
                   </a>
-  
-                  <a href="error404.html">
-                    <img src="/imagenes/catalogo peliculas/avengers.jpg" class="portada1 rounded-5" alt="avengers">
+    
+                  <a href="/error404.html">
+                    <img src="/imagenes/catalogo peliculas/yorobot.jpg" class="portada1 rounded-5" alt="yorobot">
                   </a>
-  
-                  <a href="error404.html">
+    
+                  <a href="/error404.html">
                     <img src="/imagenes/catalogo peliculas/avatar.jpg" class="portada1 rounded-5" alt="avatar">
                   </a>
                 </div>
               </div>
-  
-              <button class="carousel-control-prev" type="button" data-bs-target="#carouselPeliculas"
-                data-bs-slide="prev">
+    
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselPeliculas" data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Previous</span>
               </button>
-              <button class="carousel-control-next" type="button" data-bs-target="#carouselPeliculas"
-                data-bs-slide="next">
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselPeliculas" data-bs-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Next</span>
               </button>
             </div>
-  
+    
           </div>
         </main>
 
