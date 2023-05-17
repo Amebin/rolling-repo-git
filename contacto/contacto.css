@@ -1,34 +1,53 @@
-.conteiner-form{
-    width: 100%;
-    margin: 0%;
+main{
+    padding-top: 100px;
+    font-size: 17px;
+}
+
+.fondo-img{
     padding: 5em;
     background-image: url(https://infonegocios.info/content/images/2022/07/21/139530/rollingcode-tucuman-2.jpg);
+    background-size: cover;
+    background-position: bottom;
 }
 
-form{
+.fondo-letra{
+    background-color: gray;
+    opacity: 70%;
+}
+
+.fondo-formulario {
     color: white;
     background-color: #160D26;
-    margin: 0%;
-    padding: 0.5em;
 }
 
-.conteiner-form i{
-    color: #160D26;
-    margin-right: 0.5em;
-}
-
-.conteiner-form a{
+.container-form i{
     color: #160D26;
 }
 
-.conteiner-form h2{
+.container-form h2{
     color:black;
 }
 
-.conteiner-form p{
+.container-form p{
     color:black;
 }
 
-.conteiner-form h4{
+.container-form h4{
     color:black;
+}
+
+@media screen and (max-width:1200px){
+    *{
+        font-size: 15px;
+    }
+
+    main{
+        padding-top:90px;
+}
+}
+
+@media screen and (max-width:576px){
+    *{
+        font-size:10px;
+}
 }
