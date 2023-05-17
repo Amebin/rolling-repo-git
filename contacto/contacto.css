@@ -1,6 +1,11 @@
+*{
+    font-family: sans-serif;
+    font-size: 17px;
+}
+
 main{
     padding-top: 100px;
-    font-size: 17px;
+    
 }
 
 .fondo-img{
