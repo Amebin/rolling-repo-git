@@ -9,4 +9,4 @@
     Albarado Lucas
     Marcilla Milagros 
 
-#### Se realizo una platafora de streaming de peliculas y series para el primer proyecto del curso de desarrollo web full stack utilizando html, css y bootstrap cumpliendo los requerimentos de la pagina 
+#### Desarrollamos como equipo una platafora de streaming de peliculas y series para el primer proyecto del curso de desarrollo web full stack utilizando html, css y bootstrap cumpliendo los requerimentos de la pagina 
