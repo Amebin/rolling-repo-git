@@ -38,6 +38,12 @@ main{
     height: 50vh;
 }
 
+.dahmer-principal img{
+    -webkit-mask-image: linear-gradient(#000, rgba(33,37,41,0));
+    mask-image: linear-gradient(#000, rgba(33,37,41, 0));
+
+}
+
 @media screen and (max-width:1200px){
     *{
         font-size: 17px;
